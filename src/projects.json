@@ -1,0 +1,114 @@
+[
+  {
+    "container": "art-projects",
+    "projects": [
+      {
+        "title": "Koch Blizzard",
+        "description": "Blizzard made of fractal snowflakes",
+        "image": "",
+        "alt": "koch fractal snowflakes",
+        "tags": [
+          "js"
+        ],
+        "repository": "https://github.com/maffiemaffie/canvas-snowflake"
+      },
+      {
+        "title": "Blocky Fire",
+        "description": "Uses squares to mimic the shape of fire",
+        "image": "",
+        "alt": "blocky fire",
+        "tags": [
+          "p5.js",
+          "js",
+          "html"
+        ],
+        "repository": "https://github.com/maffiemaffie/fire-cell-engine"
+      }
+    ]
+  },
+  {
+    "container": "cool-projects",
+    "projects": [
+      {
+        "title": "\"Camera\" Art",
+        "description": "Procedural graphics generated from photoresistor input",
+        "image": "",
+        "alt": "abstract graphics",
+        "tags": [
+          "c++",
+          "arduino",
+          "java",
+          "processing"
+        ],
+        "repository": "https://github.com/maffiemaffie/arduino-camera-art"
+      },
+      {
+        "title": "Car Boids",
+        "description": "Basic boids simulation with different types of cars",
+        "image": "",
+        "alt": "simulated cars driving",
+        "tags": [
+          "unity",
+          "c#"
+        ],
+        "repository": "https://github.com/IGM-202-2225/project-2-maffiemaffie"
+      },
+      {
+        "title": "Bad Apple Bad Apple",
+        "description": "Bad Apple MV recreated using a mosaic of its own frames",
+        "image": "",
+        "alt": "single frame of video",
+        "tags": [
+          "c++",
+          "opencv"
+        ],
+        "repository": ""
+      }
+    ]
+  },
+  {
+    "container": "game-projects",
+    "projects": [
+      {
+        "title": "Online Battleship",
+        "description": "Online multiplayer battleship",
+        "image": "",
+        "alt": "battleship gameplay",
+        "tags": [
+          "node.js",
+          "ts",
+          "html",
+          "css"
+        ],
+        "repository": "https://github.com/maffiemaffie/battleship-api"
+      },
+      {
+        "title": "Arduino Memory Game",
+        "description": "Memory game built using an Arduino",
+        "image": "",
+        "alt": "memory game controller",
+        "tags": [
+          "c++",
+          "arduino"
+        ],
+        "repository": "https://github.com/maffiemaffie/arduino-memory-game"
+      },
+      {
+        "title": "Swing",
+        "description": "Shoot 'em up game with unique movement",
+        "image": "",
+        "alt": "swing gameplay",
+        "tags": [
+          "unity",
+          "c#"
+        ],
+        "repository": "https://github.com/IGM-202-2225/project-1-maffiemaffie"
+      }
+    ]
+  },
+  {
+    "container": "small-projects",
+    "projects": [
+    ]
+  }
+]
