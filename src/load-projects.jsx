@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import projectData from "./projects.json";
 
-const IMAGE_ROOT_URL = "./assets/";
+const IMAGE_ROOT_URL = "./front-page-assets/";
 
 const icons = {
   github: <i className="fab fa-github"></i>,
