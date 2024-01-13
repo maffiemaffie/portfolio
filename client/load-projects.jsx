@@ -1,8 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import projectData from "./projects.json";
+const React = require('react');
+const ReactDOM = require('react-dom');
 
-const IMAGE_ROOT_URL = "./assets/";
+const IMAGE_ROOT_URL = "./front-page-assets/";
 
 const icons = {
   github: <i className="fab fa-github"></i>,
@@ -40,7 +39,7 @@ const Project = (props) => {
         <h3>{props.title}</h3>
       </header>
       <figure>
-        <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/>
+        {props.image ? <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/> : ''}
         <figcaption>{props.description}</figcaption>
       </figure>
       <footer>
@@ -53,7 +52,7 @@ const Project = (props) => {
   );
 };
 
-export default init = () => {
+module.exports = async () => {
   const makeProjectList = (projects) => {
     return projects.map(project =>
       <li key={project.title}><Project
@@ -67,6 +66,14 @@ export default init = () => {
     );
   }
   
+  const projectDataResponse = await fetch('/front-page-assets/projects.json', {
+    method: "GET",
+    headers: {
+      "Accept": "application/json",
+    },
+  });
+  const projectData = await projectDataResponse.json();
+
   projectData.forEach(category => {
     ReactDOM.render(
       <ul>

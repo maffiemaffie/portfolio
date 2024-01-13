@@ -3,9 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-# Parcel
-.parcel-cache
-[Dd]ist/
+# Build
+static/js/
 
 # User-specific files
 *.rsuser
