@@ -1,6 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import projectData from "./projects.json";
+const React = require('react');
+const ReactDOM = require('react-dom');
 
 const IMAGE_ROOT_URL = "./front-page-assets/";
 
@@ -53,7 +52,7 @@ const Project = (props) => {
   );
 };
 
-export default init = () => {
+export default init = async () => {
   const makeProjectList = (projects) => {
     return projects.map(project =>
       <li key={project.title}><Project
@@ -67,6 +66,14 @@ export default init = () => {
     );
   }
   
+  const projectDataResponse = await fetch('/front-page-assets/projects.json', {
+    method: "GET",
+    headers: {
+      "Accept": "application/json",
+    },
+  });
+  const projectData = await projectDataResponse.json();
+
   projectData.forEach(category => {
     ReactDOM.render(
       <ul>
