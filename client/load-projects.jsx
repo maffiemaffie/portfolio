@@ -39,7 +39,7 @@ const Project = (props) => {
         <h3>{props.title}</h3>
       </header>
       <figure>
-        <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/>
+        {props.image ? <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/> : ''}
         <figcaption>{props.description}</figcaption>
       </figure>
       <footer>
@@ -52,7 +52,7 @@ const Project = (props) => {
   );
 };
 
-export default init = async () => {
+module.exports = async () => {
   const makeProjectList = (projects) => {
     return projects.map(project =>
       <li key={project.title}><Project
