@@ -10,7 +10,8 @@
         "tags": [
           "js"
         ],
-        "repository": "https://github.com/maffiemaffie/canvas-snowflake"
+        "repository": "https://github.com/maffiemaffie/canvas-snowflake",
+        "blog": "/canvas-snowflake"
       },
       {
         "title": "Blocky Fire",
@@ -22,7 +23,8 @@
           "js",
           "html"
         ],
-        "repository": "https://github.com/maffiemaffie/fire-cell-engine"
+        "repository": "https://github.com/maffiemaffie/fire-cell-engine",
+        "blog": "/blocky-fire"
       }
     ]
   },
@@ -40,7 +42,8 @@
           "java",
           "processing"
         ],
-        "repository": "https://github.com/maffiemaffie/arduino-camera-art"
+        "repository": "https://github.com/maffiemaffie/arduino-camera-art",
+        "blog": "/camera-art"
       },
       {
         "title": "Car Boids",
@@ -62,7 +65,8 @@
           "c++",
           "opencv"
         ],
-        "repository": ""
+        "repository": "",
+        "blog": "/bad-apple-bad-apple"
       }
     ]
   },
@@ -80,7 +84,8 @@
           "html",
           "css"
         ],
-        "repository": "https://github.com/maffiemaffie/battleship-api"
+        "repository": "https://github.com/maffiemaffie/battleship-api",
+        "blog": "/battleship-api"
       },
       {
         "title": "Arduino Memory Game",
@@ -91,7 +96,8 @@
           "c++",
           "arduino"
         ],
-        "repository": "https://github.com/maffiemaffie/arduino-memory-game"
+        "repository": "https://github.com/maffiemaffie/arduino-memory-game",
+        "blog": "/memory-game"
       },
       {
         "title": "Swing",
@@ -102,7 +108,8 @@
           "unity",
           "c#"
         ],
-        "repository": "https://github.com/IGM-202-2225/project-1-maffiemaffie"
+        "repository": "https://github.com/IGM-202-2225/project-1-maffiemaffie",
+        "blog": "/swing"
       }
     ]
   },

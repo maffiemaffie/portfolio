@@ -36,7 +36,9 @@ const Project = (props) => {
   return (
     <section className="project-container">
       <header>
-        <h3>{props.title}</h3>
+        <a href={`blogs${props.href}`}>
+          <h3>{props.title}</h3>
+        </a>
       </header>
       <figure>
         {props.image ? <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/> : ''}
@@ -62,6 +64,7 @@ module.exports = async () => {
         alt={project.alt}
         tags={project.tags}
         repository={project.repository}
+        href={project.blog}
       /></li>
     );
   }
