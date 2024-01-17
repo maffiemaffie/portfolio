@@ -14,8 +14,8 @@ module.exports = async (req, res, next) => {
     return next('route');
   }
   
-  const rerouted = blogMarkdown.replace(
-    /!\[.*\]\(assets\/.*\)/, 
+  const rerouted = blogMarkdown.replaceAll(
+    /!\[.*\]\(assets\/.*\)/g, 
     match => match.replace('assets/', `/blog-assets/${blog}/`)
   );
 
