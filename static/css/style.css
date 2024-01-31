@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Questrial&display=swap');
+
+/* :root[data-theme="yellow"] {
+  --text: #fbfbd3;
+  --background: #1a1902;
+  --primary: #f3eb7e;
+  --secondary: #0e3f97;
+  --accent: #b342ee;
+} */
+
+:root {
+  --text: #e0d7f8;
+  --background: #15131E;
+  --primary: #a48beb;
+  --secondary: #8f1867;
+  --accent: #de3a67;
+
+  --text-50: #e0d7f880;
+  --background-50: #15131E80;
+  --primary-50: #a48beb80;
+  --secondary-50: #8f186780;
+  --accent-50: #de3a6780;
+
+  --text-10: #e0d7f819;
+  --background-10: #15131E19;
+  --primary-10: #a48beb19;
+  --secondary-10: #8f186719;
+  --accent-10: #de3a6719;
+
+  --elia-ascii: "☆   *    ‧ ˚  .*     ⋆    ⊹      . *    \A  ‧ . ⊹    .      .    ☆         .        ‧˚ \A  ˚____ _ ˚_  ☆˚ ____   __  . ⊹   ˚.  ˚  ˚ *\A  |  __) |(_)__ /  __)_|  |_ ___˚___  __/\\__\A  |  _)| || |_  \\ (_/ _ \\    \\ __)   \\\\    /\A  |_____)_\\_(___/____)__/_||_|___/_/_//_/\\_\\\A";
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+#name-section.expanded {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 40px;
+
+  color: var(--accent);
+}
+
+#name-section {
+  display: block;
+  font-size: 20px;
+  color: var(--accent);
+}
+
+#greeting:not(.expanded) {
+  display: none;
+}
+
+/*------------------------------*/
+
+#about-me {
+  display: flex;
+  flex-flow: column;
+  
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 100;
+
+  background: var(--primary-10);
+  border-radius: 1em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+
+  border: 0.5px solid var(--primary-50);
+
+  padding: 1em;
+  gap: 1em;
+
+  transition: 0.3s;
+}
+
+#about-me:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.4);
+}
+
+#about-me > * {
+  margin: 0;
+}
+
+#about-me > header {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+#about-me > header > h2 {
+  font-weight: inherit;
+  font-size: inherit;
+  padding: inherit;
+  margin: inherit;
+}
+
+#about-me > header > h2::before {
+  content: "elia@portfolio:~$ ";
+  color: var(--primary);
+}
+
+#about-me-list {
+  list-style-position: inside;
+  padding: 0;
+  list-style-type: none;
+}
+
+#about-me-list::before {
+  content: var(--elia-ascii);
+  white-space: pre;
+  margin-bottom: 1em;
+  display: inline-block;
+
+  color: transparent;
+
+  background: linear-gradient(to top, var(--accent), var(--primary));
+  background-clip: text;
+}
+
+#about-me-list > li::before {
+  content: "- ";
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+.highlight-alt {
+  color: var(--accent);
+}
