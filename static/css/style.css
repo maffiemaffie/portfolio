@@ -99,6 +99,8 @@ a:active {
   gap: 1em;
 
   transition: 0.3s;
+
+  max-width: 800px;
 }
 
 #about-me > * {
