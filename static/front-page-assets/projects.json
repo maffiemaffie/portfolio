@@ -54,7 +54,8 @@
           "unity",
           "c#"
         ],
-        "repository": "https://github.com/IGM-202-2225/project-2-maffiemaffie"
+        "repository": "https://github.com/IGM-202-2225/project-2-maffiemaffie",
+        "blog": "/car-boids"
       },
       {
         "title": "Bad Apple Bad Apple",
@@ -66,7 +67,7 @@
           "opencv"
         ],
         "repository": "",
-        "blog": "/bad-apple-bad-apple"
+        "blog": "/bad-apple"
       }
     ]
   },
@@ -85,7 +86,7 @@
           "css"
         ],
         "repository": "https://github.com/maffiemaffie/battleship-api",
-        "blog": "/battleship-api"
+        "blog": "/battleship"
       },
       {
         "title": "Arduino Memory Game",
