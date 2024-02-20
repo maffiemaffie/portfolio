@@ -195,7 +195,7 @@ a:active {
 
 .project-list-container > ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: calc(33% - 0.25em) calc(34% - 0.5em) calc(33% - 0.25em);
   justify-items: stretch;
   list-style: none;
   padding: 0;
@@ -325,4 +325,18 @@ a:active {
 
 #back-to-main::before {
   content: '<- ';
+}
+
+@media only screen and (max-width: 500px) {
+  .project-container figcaption {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: start;
+  }
+
+  .project-container figcaption h3,
+  .project-container p {
+    margin: 0;
+  }
 }
