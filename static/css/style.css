@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700');
 
 /* :root[data-theme="yellow"] {
   --text: #fbfbd3;
@@ -72,22 +72,28 @@ a:active {
 
 #name-section {
   display: block;
-  font-size: 20px;
   color: var(--accent);
+}
+
+#name {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 #greeting:not(.expanded) {
   display: none;
 }
 
+#about-me, .terminal-command {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 #about-me {
 /* main > section { */
   display: flex;
   flex-flow: column;
-  
-  font-family: monospace;
-  font-size: 12px;
-  font-weight: 100;
 
   background: var(--primary-10);
   border-radius: 1em;
@@ -277,4 +283,41 @@ a:active {
 
 .highlight-alt {
   color: var(--accent);
+}
+
+#blog {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: 100%;
+
+  margin: 20px auto;
+
+  padding: 50px;
+  background: linear-gradient(to top, var(--background), var(--primary-10));
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#blog > h1 {
+  justify-self: center;
+  font-size: 3rem;
+}
+
+#blog > p {
+  width: 100%;
+}
+
+/* badges */
+#blog img:not([src*='img.shields.io']) {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#back-to-main {
+  font-size: medium;
+}
+
+#back-to-main::before {
+  content: '<- ';
 }
