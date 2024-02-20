@@ -1,7 +1,7 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-const IMAGE_ROOT_URL = "./front-page-assets/";
+const IMAGE_ROOT_URL = "/front-page-assets/";
 
 const icons = {
   github: <i className="fab fa-github"></i>,
@@ -35,21 +35,21 @@ const Project = (props) => {
   
   return (
     <section className="project-container">
-      <header>
-        <a href={`blogs${props.href}`}>
-          <h3>{props.title}</h3>
-        </a>
-      </header>
       <figure>
         {props.image ? <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/> : ''}
-        <figcaption>{props.description}</figcaption>
+        <figcaption>
+          <a href={`blogs${props.href}`}>
+            <h3>{props.title}</h3>
+          </a>
+          <IconTag icon="github" href={props.repository}></IconTag>
+          <ul className="tag-list">
+            {makeTags(props.tags)}
+          </ul>
+          <p>
+            {props.description}
+          </p>
+        </figcaption>
       </figure>
-      <footer>
-        <ul className="tag-list">
-          <li key="github"><IconTag icon="github" href={props.repository}></IconTag></li>
-          {makeTags(props.tags)}
-        </ul>
-      </footer>
     </section>
   );
 };

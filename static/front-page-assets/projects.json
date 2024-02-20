@@ -5,7 +5,7 @@
       {
         "title": "Koch Blizzard",
         "description": "Blizzard made of fractal snowflakes",
-        "image": "",
+        "image": "images/snowflake-demo.gif",
         "alt": "koch fractal snowflakes",
         "tags": [
           "js"
@@ -16,7 +16,7 @@
       {
         "title": "Blocky Fire",
         "description": "Uses squares to mimic the shape of fire",
-        "image": "",
+        "image": "/images/fire-demo.gif",
         "alt": "blocky fire",
         "tags": [
           "p5.js",
@@ -34,7 +34,7 @@
       {
         "title": "\"Camera\" Art",
         "description": "Procedural graphics generated from photoresistor input",
-        "image": "",
+        "image": "images/camera-art.gif",
         "alt": "abstract graphics",
         "tags": [
           "c++",
@@ -48,7 +48,7 @@
       {
         "title": "Car Boids",
         "description": "Basic boids simulation with different types of cars",
-        "image": "",
+        "image": "images/car-boids-demo.gif",
         "alt": "simulated cars driving",
         "tags": [
           "unity",
@@ -60,7 +60,7 @@
       {
         "title": "Bad Apple Bad Apple",
         "description": "Bad Apple MV recreated using a mosaic of its own frames",
-        "image": "",
+        "image": "images/bapple-trim.gif",
         "alt": "single frame of video",
         "tags": [
           "c++",
@@ -77,7 +77,7 @@
       {
         "title": "Online Battleship",
         "description": "Online multiplayer battleship",
-        "image": "",
+        "image": "images/battleship-demo.jpg",
         "alt": "battleship gameplay",
         "tags": [
           "node.js",
@@ -91,7 +91,7 @@
       {
         "title": "Arduino Memory Game",
         "description": "Memory game built using an Arduino",
-        "image": "",
+        "image": "images/memory-game-demo.gif",
         "alt": "memory game controller",
         "tags": [
           "c++",
@@ -103,13 +103,13 @@
       {
         "title": "Swing",
         "description": "Shoot 'em up game with unique movement",
-        "image": "",
+        "image": "images/swing-demo.gif",
         "alt": "swing gameplay",
         "tags": [
           "unity",
           "c#"
         ],
-        "repository": "https://github.com/IGM-202-2225/project-1-maffiemaffie",
+        "repository": "https://github.com/maffiemaffie/swing-em-up",
         "blog": "/swing"
       }
     ]
