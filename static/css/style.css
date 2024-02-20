@@ -289,6 +289,7 @@ a:active {
   display: grid;
   max-width: 800px;
   grid-template-columns: 100%;
+  justify-content: stretch;
 
   margin: 20px auto;
 
@@ -302,8 +303,12 @@ a:active {
   justify-self: center;
   font-size: 3rem;
 }
-
+/* 
 #blog > p {
+  width: 100%;
+} */
+
+#blog iframe {
   width: 100%;
 }
 
