@@ -14,6 +14,7 @@
 ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
 ![Processing](https://img.shields.io/badge/Processing-006699?style=for-the-badge&logo=processingfoundation&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Aseprite](https://img.shields.io/badge/Aseprite-7D929E?style=for-the-badge&logo=aseprite&logoColor=white)
 
 ## This is a second level header
 This is a bunch of text underneat that header. It's very cool text and it describes a very cool project. Maybe it gives an overview of the project or perhaps it discusses the inspiration that led to it. All I know is that it's normal paragraph style text.
