@@ -44,6 +44,10 @@ body {
   background-color: var(--background);
 }
 
+.hidden {
+  display: none!important;
+}
+
 a:link {
   color: var(--primary);
   border-color: var(--primary);
