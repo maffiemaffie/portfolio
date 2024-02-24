@@ -21,6 +21,12 @@
   --secondary-50: #8f186780;
   --accent-50: #de3a6780;
 
+  --text-25: #e0d7f840;
+  --background-25: #15131E40;
+  --primary-25: #a48beb40;
+  --secondary-25: #8f186740;
+  --accent-25: #de3a6740;
+
   --text-10: #e0d7f819;
   --background-10: #15131E19;
   --primary-10: #a48beb19;
@@ -294,7 +300,7 @@ a:active {
   margin: 20px auto;
 
   padding: 50px;
-  background: linear-gradient(to top, var(--background), var(--primary-10));
+  background: linear-gradient(to top, transparent, var(--primary-10));
   border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -303,12 +309,24 @@ a:active {
   justify-self: center;
   font-size: 3rem;
 }
-/* 
-#blog > p {
-  width: 100%;
-} */
 
-#blog iframe {
+#blog > h2 {
+  color: var(--accent);
+}
+
+#blog p > code {
+  font-size: inherit;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: inherit;
+
+  background-color: var(--secondary-25);
+  border-radius: 0.2em;
+
+  color: var(--accent);
+}
+
+#blog iframe,
+#blog video {
   width: 100%;
 }
 
@@ -316,7 +334,9 @@ a:active {
 #blog img:not([src*='img.shields.io']) {
   display: block;
   width: 80%;
+  max-height: 400px;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 #back-to-main {
