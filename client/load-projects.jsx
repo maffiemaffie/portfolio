@@ -41,7 +41,7 @@ const Project = (props) => {
           <a href={`blogs${props.href}`}>
             <h3>{props.title}</h3>
           </a>
-          <IconTag icon="github" href={props.repository}></IconTag>
+          {props.repository ? <IconTag icon="github" href={props.repository}></IconTag> : ''}
           <ul className="tag-list">
             {makeTags(props.tags)}
           </ul>
