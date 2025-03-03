@@ -1,5 +1,20 @@
 [
   {
+    "container": "design-projects",
+    "projects": [
+      {
+        "title": "OUTspoken Rebrand",
+        "description": "New Branding for RIT's OUTspoken organization",
+        "image": "images/outspoken.png",
+        "alt": "OUTspoken logo",
+        "tags": [
+          "figma"
+        ],
+        "blog": "/outspoken-rebrand"
+      }
+    ]
+  },
+  {
     "container": "art-projects",
     "projects": [
       {
@@ -116,7 +131,6 @@
   },
   {
     "container": "small-projects",
-    "projects": [
-    ]
+    "projects": []
   }
 ]
