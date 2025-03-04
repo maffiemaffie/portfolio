@@ -11,6 +11,16 @@
           "figma"
         ],
         "blog": "/outspoken-rebrand"
+      },
+      {
+        "title": "OUTspoken Website",
+        "description": "New website for RIT's OUTspoken organization",
+        "image": "images/laptop.jpg",
+        "alt": "OUTspoken homepage on a laptop",
+        "tags": [
+          "figma"
+        ],
+        "blog": "/outspoken-website"
       }
     ]
   },
