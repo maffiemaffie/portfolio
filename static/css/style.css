@@ -339,6 +339,10 @@ a:active {
   object-fit: contain;
 }
 
+#blog img.full-wide {
+  max-height: unset;
+}
+
 #back-to-main {
   font-size: medium;
 }
