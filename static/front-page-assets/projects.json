@@ -21,6 +21,16 @@
           "figma"
         ],
         "blog": "/outspoken-website"
+      },
+      {
+        "title": "Queerfest Marketing",
+        "description": "Marketing material for our biggest annual event",
+        "image": "images/queerfest.jpg",
+        "alt": "Queerfest informational flyer",
+        "tags": [
+          "figma"
+        ],
+        "redirect": "https://www.behance.net/gallery/220675031/Queerfest-Marketing"
       }
     ]
   },
