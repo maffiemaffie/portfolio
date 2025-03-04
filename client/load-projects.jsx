@@ -38,7 +38,7 @@ const Project = (props) => {
       <figure>
         {props.image ? <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/> : ''}
         <figcaption>
-          <a href={props.href}>
+          <a href={`blogs${props.href}`}>
             <h3>{props.title}</h3>
           </a>
           {props.repository ? <IconTag icon="github" href={props.repository}></IconTag> : ''}
@@ -64,7 +64,7 @@ module.exports = async () => {
         alt={project.alt}
         tags={project.tags}
         repository={project.repository}
-        href={project.blog ? `blogs${project.blog}` : project.redirect}
+        href={project.blog}
       /></li>
     );
   }
@@ -78,11 +78,13 @@ module.exports = async () => {
   const projectData = await projectDataResponse.json();
 
   projectData.forEach(category => {
+    const container = document.querySelector(`#${category.container} .project-list-container`);
+    if (!container) return;
     ReactDOM.render(
       <ul>
         {makeProjectList(category.projects)}
       </ul>,
-      document.querySelector(`#${category.container} .project-list-container`)
+      container
     );
   });
 };
