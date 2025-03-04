@@ -38,7 +38,7 @@ const Project = (props) => {
       <figure>
         {props.image ? <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/> : ''}
         <figcaption>
-          <a href={`blogs${props.href}`}>
+          <a href={props.href}>
             <h3>{props.title}</h3>
           </a>
           {props.repository ? <IconTag icon="github" href={props.repository}></IconTag> : ''}
@@ -64,7 +64,7 @@ module.exports = async () => {
         alt={project.alt}
         tags={project.tags}
         repository={project.repository}
-        href={project.blog}
+        href={project.blog ? `blogs${project.blog}` : project.redirect}
       /></li>
     );
   }
