@@ -99,18 +99,6 @@
         "blog": "/camera-art"
       },
       {
-        "title": "Car Boids",
-        "description": "Basic boids simulation with different types of cars",
-        "image": "images/car-boids-demo.gif",
-        "alt": "simulated cars driving",
-        "tags": [
-          "unity",
-          "c#"
-        ],
-        "repository": "https://github.com/IGM-202-2225/project-2-maffiemaffie",
-        "blog": "/car-boids"
-      },
-      {
         "title": "Bad Apple Bad Apple",
         "description": "Bad Apple MV recreated using a mosaic of its own frames",
         "image": "images/bapple-trim.gif",
@@ -121,6 +109,18 @@
         ],
         "repository": "https://github.com/maffiemaffie/bad-apple-bad-apple",
         "blog": "/bad-apple"
+      },
+      {
+        "title": "Car Boids",
+        "description": "Basic boids simulation with different types of cars",
+        "image": "images/car-boids-demo.gif",
+        "alt": "simulated cars driving",
+        "tags": [
+          "unity",
+          "c#"
+        ],
+        "repository": "https://github.com/IGM-202-2225/project-2-maffiemaffie",
+        "blog": "/car-boids"
       }
     ]
   },
@@ -128,18 +128,16 @@
     "container": "game-projects",
     "projects": [
       {
-        "title": "Online Battleship",
-        "description": "Online multiplayer battleship",
-        "image": "images/battleship-demo.jpg",
-        "alt": "battleship gameplay",
+        "title": "Swing",
+        "description": "Shoot 'em up game with unique movement",
+        "image": "images/swing-demo.gif",
+        "alt": "swing gameplay",
         "tags": [
-          "node.js",
-          "ts",
-          "html",
-          "css"
+          "unity",
+          "c#"
         ],
-        "repository": "https://github.com/maffiemaffie/battleship-api",
-        "blog": "/battleship"
+        "repository": "https://github.com/maffiemaffie/swing-em-up",
+        "blog": "/swing"
       },
       {
         "title": "Arduino Memory Game",
@@ -154,16 +152,18 @@
         "blog": "/memory-game"
       },
       {
-        "title": "Swing",
-        "description": "Shoot 'em up game with unique movement",
-        "image": "images/swing-demo.gif",
-        "alt": "swing gameplay",
+        "title": "Online Battleship",
+        "description": "Online multiplayer battleship",
+        "image": "images/battleship-demo.jpg",
+        "alt": "battleship gameplay",
         "tags": [
-          "unity",
-          "c#"
+          "node.js",
+          "ts",
+          "html",
+          "css"
         ],
-        "repository": "https://github.com/maffiemaffie/swing-em-up",
-        "blog": "/swing"
+        "repository": "https://github.com/maffiemaffie/battleship-api",
+        "blog": "/battleship"
       }
     ]
   },
