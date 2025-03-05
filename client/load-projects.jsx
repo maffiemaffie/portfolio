@@ -14,7 +14,6 @@ const icons = {
   unity: <i className="fab fa-unity"></i>,
   python: <i className="fab fa-python"></i>,
   java: <i className="fab fa-java"></i>,
-  figma: <i class="fab fa-figma"></i>,
 };
 
 const IconTag = ({icon, href}) => {
@@ -39,7 +38,7 @@ const Project = (props) => {
       <figure>
         {props.image ? <img src={`${IMAGE_ROOT_URL}${props.image}`} alt={props.alt}/> : ''}
         <figcaption>
-          <a href={`blogs${props.href}`}>
+          <a href={props.href}>
             <h3>{props.title}</h3>
           </a>
           {props.repository ? <IconTag icon="github" href={props.repository}></IconTag> : ''}
@@ -65,7 +64,7 @@ module.exports = async () => {
         alt={project.alt}
         tags={project.tags}
         repository={project.repository}
-        href={project.blog}
+        href={project.blog ? `blogs${project.blog}` : project.redirect}
       /></li>
     );
   }
