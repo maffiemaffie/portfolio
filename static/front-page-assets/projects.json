@@ -110,6 +110,19 @@
     "container": "game-projects",
     "projects": [
       {
+        "title": "Rewind.le",
+        "description": "Wordle-like using personalized music data",
+        "image": "images/rewindle.jpg",
+        "alt": "rewind.le logo",
+        "tags": [
+          "node.js",
+          "mongoDB",
+          "redis"
+        ],
+        "repository": "https://github.com/maffiemaffie/rewind-le",
+        "blog": "/rewindle"
+      },
+      {
         "title": "Online Battleship",
         "description": "Online multiplayer battleship",
         "image": "images/battleship-demo.jpg",
