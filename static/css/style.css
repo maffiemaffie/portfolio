@@ -352,6 +352,27 @@ a:active {
 }
 
 @media only screen and (max-width: 500px) {
+  #blog {
+    padding: 20px;
+  }
+
+  #blog img:not([src*='img.shields.io']) {
+    width: 100%;
+  }
+
+  .project-list-container > ul {
+    display: grid;
+    grid-template-columns: calc(50% - 0.25em) calc(50% - 0.25em) ;
+  }
+
+  .project-category {
+    margin: 35px auto;
+  }
+
+  .project-container {
+    padding: 8px;
+  }
+
   .project-container figcaption {
     display: flex;
     flex-flow: column nowrap;
