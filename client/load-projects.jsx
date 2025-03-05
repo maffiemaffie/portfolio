@@ -14,6 +14,7 @@ const icons = {
   unity: <i className="fab fa-unity"></i>,
   python: <i className="fab fa-python"></i>,
   java: <i className="fab fa-java"></i>,
+  figma: <i className="fab fa-figma"></i>,
 };
 
 const IconTag = ({icon, href}) => {
