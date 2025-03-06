@@ -38,6 +38,6 @@ We started with the eight colors of the original pride flag, designed by Gilbert
 ## The Finishing Touches
 All that was left to do was add some neutral tones for typography and put together the wordmarks, lockups, and social media icons!
 
-![](assets/outspoken-logo-sheet.jpg)
+<img class="full-wide" src="assets/outspoken-logo-sheet.jpg" alt="outspoken logos, flags, and colors"/>
 <br/>
-![](assets/outspoken-brand-colors.jpg)
+<img class="full-wide" src="assets/outspoken-brand-colors.jpg" alt="outspoken colors"/>
