@@ -7,5 +7,5 @@ Recreating [this Bad Apple music video](https://www.youtube.com/watch?v=FtutLA63
 For each frame, I create a mosaic of tiles, except each tile can only be one of the frame from the video. The source code can also be used to recreate any image or video as a mosaic of tiles from a bank of images.
 
 <video controls>
-  <source src="assets/bapple1.mp4" type="video/mp4">
+  <source src="assets/bapple1.webm" type="video/webm">
 </video>
