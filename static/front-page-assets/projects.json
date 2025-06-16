@@ -3,6 +3,19 @@
     "container": "best-projects",
     "projects": [
       {
+        "title": "Overboard",
+        "description": "The floor is lava… but in a shipwreck!",
+        "image": "images/overboard.jpg",
+        "alt": "player jumps between platforms at Imagine RIT",
+        "tags": [
+          "unity",
+          "c#",
+          "blender"
+        ],
+        "repository": "https://github.com/Overboard-RIT/overboard/",
+        "blog": "/overboard"
+      },
+      {
         "title": "Rewind.le",
         "description": "Wordle-like using personalized music data",
         "image": "images/rewindle.jpg",
