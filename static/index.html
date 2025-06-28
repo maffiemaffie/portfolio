@@ -1,126 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-K52CCHS3");
-    </script>
-    <!-- End Google Tag Manager -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elia Cohen - Portfolio</title>
-    <script
-      src="https://kit.fontawesome.com/0b0f3451a5.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/0b0f3451a5.js" crossorigin="anonymous"></script>
     <script type="module" src="/js/home.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
+    
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Maffie, Elia Cohen, Development, Web Development">
+    <meta name="description" content="Elia Cohen's development portfolio">
+    <meta name="author" content="Elia Cohen">
+    
+    <meta property="og:image" content="https://maffie.dev/maffiepix.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:height" content="128">
+    <meta property="og:image:width" content="128">
+    <meta property="og:image:alt" content="A small pixel art icon of a girl with black hair on a white background.">
+    <meta property="og:site_name" content="Elia Cohen">
+    <meta property="og:url" content="https://maffie.dev">
+    <meta property="og:description" content="Hi I'm Elia! I love art and programming. This is my portfolio of academic and personal projects.">
+    <meta property="og:title" content="Elia Cohen">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
 
-    <meta
-      name="keywords"
-      content="HTML, CSS, JavaScript, Portfolio, Maffie, Elia Cohen, Development, Web Development"
-    />
-    <meta name="description" content="Elia Cohen's development portfolio" />
-    <meta name="author" content="Elia Cohen" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="pix_elia">
 
-    <meta property="og:image" content="https://maffie.dev/maffiepix.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:height" content="128" />
-    <meta property="og:image:width" content="128" />
-    <meta
-      property="og:image:alt"
-      content="A small pixel art icon of a girl with black hair on a white background."
-    />
-    <meta property="og:site_name" content="Elia Cohen" />
-    <meta property="og:url" content="https://maffie.dev" />
-    <meta
-      property="og:description"
-      content="Hi I'm Elia! I love art and programming. This is my portfolio of academic and personal projects."
-    />
-    <meta property="og:title" content="Elia Cohen" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:creator" content="pix_elia" />
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-K52CCHS3"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
     <header id="name-section">
-      <h1>
-        <span id="greeting">Hi I'm </span><span id="name">Elia Cohen</span>
-      </h1>
+        <h1><span id="greeting">Hi I'm </span><span id="name">Elia Cohen</span></h1>
     </header>
     <main>
-      <section class="terminal-window" id="about-me">
-        <header>
-          <h2>whoami</h2>
-        </header>
-        <ul id="about-me-list">
-          <li>4th-year <span class="highlight">RIT</span> student</li>
-          <li>New Media Interactive Development major</li>
-          <li><span class="highlight-alt">Math</span> liker</li>
-          <li>Cat haver</li>
-        </ul>
-        <p id="about-me-blurb">
-          I love programming in C# and JS. I've always been fascinated in how
-          code can be used to create new and cool things. I'm always looking for
-          projects to practice my coding skills and learn new ones. I'm always
-          excited to learn new concepts when I don't know how to achieve a
-          certain aim.
-        </p>
-      </section>
-      <section id="best-projects" class="project-category">
-        <header>
-          <h2>Best of the Best</h2>
-        </header>
-        <div class="project-list-container"></div>
-      </section>
-      <section id="design-projects" class="project-category">
-        <header>
-          <h2>Design</h2>
-        </header>
-        <div class="project-list-container"></div>
-      </section>
-      <section id="art-projects" class="project-category">
-        <header>
-          <h2>Art</h2>
-        </header>
-        <div class="project-list-container"></div>
-      </section>
-      <section id="cool-projects" class="project-category">
-        <header>
-          <h2>Cool Stuff</h2>
-        </header>
-        <div class="project-list-container"></div>
-      </section>
-      <section id="game-projects" class="project-category">
-        <header>
-          <h2>Games</h2>
-        </header>
-        <div class="project-list-container"></div>
-      </section>
-      <!-- <section id="small-projects" class="project-category">
+        <section class="terminal-window" id="about-me">
+            <header>
+                <h2>whoami</h2>
+            </header>
+            <ul id="about-me-list">
+                <li>4th-year <span class="highlight">RIT</span> student</li>
+                <li>New Media Interactive Development major</li>
+                <li><span class="highlight-alt">Math</span> liker</li>
+                <li>Cat haver</li>
+            </ul>
+            <p id="about-me-blurb">
+                I love programming in C# and JS. I've always been fascinated in how code can be used to create new and cool things. I'm always looking for projects to practice my coding skills and learn new ones. I'm always excited to learn new concepts when I don't know how to achieve a certain aim.
+            </p>
+        </section>
+        <section id="best-projects" class="project-category">
+            <header>
+                <h2>Best of the Best</h2>
+            </header>
+            <div class="project-list-container">
+
+            </div>
+        </section>
+        <section id="design-projects" class="project-category">
+            <header>
+                <h2>Design</h2>
+            </header>
+            <div class="project-list-container">
+
+            </div>
+        </section>
+        <section id="art-projects" class="project-category">
+            <header>
+                <h2>Art</h2>
+            </header>
+            <div class="project-list-container">
+
+            </div>
+        </section>
+        <section id="cool-projects" class="project-category">
+            <header>
+                <h2>Cool Stuff</h2>
+            </header>
+            <div class="project-list-container">
+                
+            </div>
+        </section>
+        <section id="game-projects" class="project-category">
+            <header>
+                <h2>Games</h2>
+            </header>
+            <div class="project-list-container">
+                
+            </div>
+        </section>
+        <!-- <section id="small-projects" class="project-category">
             <header>
                 <h2>Mini</h2>
             </header>
@@ -130,21 +98,13 @@
         </section> -->
     </main>
     <footer>
-      <h4>Check me out!</h4>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/maffier/"
-            ><i class="fab fa-linkedin"></i> LinkedIn</a
-          >
-        </li>
-        <li>
-          <a href="https://github.com/maffiemaffie"
-            ><i class="fab fa-github-square"></i> Github</a
-          >
-        </li>
-        <li><a href="/blogs/resume">Resume</a></li>
-      </ul>
-      Made by me :)
+        <h4>Check me out!</h4>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/maffier/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://github.com/maffiemaffie"><i class="fab fa-github-square"></i> Github</a></li>
+            <li><a href="/blogs/resume">Resume</a></li>
+        </ul>
+        Made by me :)
     </footer>
-  </body>
+</body>
 </html>
